@@ -13,7 +13,7 @@ class ModelConfig:
     api_url: str
     api_type: str = "openai"  # openai, vllm, anthropic, etc.
     api_key: Optional[str] = None
-    temperature: float = 0.0
+    temperature: float = 1.0
     max_tokens: int = 4096
     top_p: float = 1.0
     timeout: int = 180
